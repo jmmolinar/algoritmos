@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * Dado un método que recibe una String, comprobar si todos los caracteres son únicos o no.
+ * Clase que a traves de un mtodo que recibe una String, comprueba si todos los caracteres son unicos o no.
  *
  * isUnique("abcde") => true;
  * isUnique("abcded") => false;
@@ -15,23 +15,30 @@ public class IsUnique {
   //  throw new UnsupportedOperationException("Not implemented yet");
   //}
 
-  // Asumiendo que es ASCII. Dependiendo de la codificación serán más
+  /** Constante con cantidad de caracteres maximo en codificacion ASCII*/
   private static int NUMBER_OF_CHARS = 128;
 
-  public boolean isUnique(String s) {
-    System.out.println("String recibido: " + s);
-    if (s.length() > NUMBER_OF_CHARS) {
+  /**
+   * Metodo que realiza la verificacion de caracteres de una cadena recibida para saber si son unicos
+   * @param cadenaIn cadena de caracteres a evaluar
+   * @return true o false dependiendo si los caracteres son unicos o no
+   */
+  public boolean isUnique(String cadenaIn) {
+    System.out.println("String recibido: " + cadenaIn);
+    
+    // Asumiendo que es ASCII. Dependiendo de la codificación serán más
+    if (cadenaIn.length() > NUMBER_OF_CHARS) {
         System.out.println("La longitud del string recibido es mayor a " + NUMBER_OF_CHARS + ". Por lo tanto hay repetidos, se retorna False");
         return false;
     }
 
+    //Uso de Hash set para verificar repeticiones.  Es mas eficiente que hacer dos for.
     Set<Character> set = new HashSet<Character>();
-    for (char c : s.toCharArray()) {
+    for (char c : cadenaIn.toCharArray()) {
       if (set.contains(c)) {
         System.out.println("Caracter " + c + " ya se encuentra en String recibido, se retorna False");
         return false;
       }
-      //System.out.println("Caracter agregado al set para verificacion: " + c);
       set.add(c);
     }
 
