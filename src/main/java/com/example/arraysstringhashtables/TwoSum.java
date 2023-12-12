@@ -34,7 +34,7 @@ public class TwoSum {
         return null;
     } 
 
-    //Solucion con complejidad cuadratica
+    //Solucion con complejidad cuadratica (dos pasadas por el arreglo)
     /*int [] resultado = new int[2];
     for (int i = 0; i < nums.length; i++) {
         for (int j = i + 1; j < nums.length; j++) {
@@ -50,9 +50,7 @@ public class TwoSum {
     return null;*/
 
     //Solucion con complejidad lineal (una sola pasada por el arreglo)
-
     //Se trabaja con un mapa que almacene el complemento necesario que sumado al elemento obtenga el valor del target
-
     Map<Integer, Integer> complementsMap = new HashMap<>();
     for (int i = 0; i < nums.length; i++) {
         System.out.println("Iteracion " + i);
