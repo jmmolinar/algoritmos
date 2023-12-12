@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
- * Clase que a traves de un mtodo que recibe una String, comprueba si todos los caracteres son unicos o no.
+ * Clase que a traves de un metodo que recibe una String, comprueba si todos los caracteres son unicos o no.
  *
  * isUnique("abcde") => true;
  * isUnique("abcded") => false;
