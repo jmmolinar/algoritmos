@@ -9,8 +9,7 @@ Dado un método que recibe una String, comprobar si todos los caracteres son ún
  * isUnique("abcded") => false;
 
 ### Ejercicio 2: Arrays, Strings y Tablas Hash
-Dado un array de números enteros y un target, retorna los índices de dos números para los que la suma de ambos sea igual al target.
-Asumir que hay solamente una solución.
+Dado un array de números enteros y un target, retorna los índices de dos números para los que la suma de ambos sea igual al target. Asumir que hay solamente una solución.
  
 Ejemplo 1:
  *  Input: nums = [9, 2, 5, 6], target = 7
