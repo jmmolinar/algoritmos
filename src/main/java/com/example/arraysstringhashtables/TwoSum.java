@@ -25,6 +25,12 @@ public class TwoSum {
   //  throw new UnsupportedOperationException("Not implemented yet");
   //}
 
+  /**
+   * Metodo que devuelve un arreglo con los indices de los elementos que al ser sumados obtienen un valor espcificado como parametro
+   * @param nums arreglo de elementos a sumar para obtener como resultado el valor de target
+   * @param target valor que debe resultar de suman dos elementos del arreglo nums
+   * @return arreglo con indices de elementos que suman el valor del target
+   */
   public int[] twoSum(int[] nums, int target) {
     System.out.println("Arreglo recibido: " + Arrays.toString(nums));
     System.out.println("Target recibido: " + target);

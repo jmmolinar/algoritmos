@@ -10,7 +10,8 @@ import com.example.arraysstringhashtables.TwoSum;
  */
 public class TwoSumTest {
     /**
-     * Test que retorna los indices de dos numero que sumen el valor de un target esperado
+     * Test que retorna los indices de dos numero que sumen el valor de un target
+     * esperado
      */
     @Test
     public void twoSumTest() {
