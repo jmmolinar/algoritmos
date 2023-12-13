@@ -68,7 +68,7 @@ public class ZeroMatrixTest {
     /**
      * Metodo simple para analizar dimensiones de una matriz
      */
-    private void checkMatrix() {
+    /*private void checkMatrix() {
         int[][] matrix = {
                 { 2, 1, 3, 0, 2 },
                 { 7, 4, 1, 3, 8 },
@@ -81,5 +81,5 @@ public class ZeroMatrixTest {
             System.out.println("[Columna 0][FILA " + i + "] Valor: " + matrix[i][0]);
         }
         System.out.println("\nmatrix cantidad de columnas en una fila: " + matrix[0].length);
-    }
+    }*/
 }
