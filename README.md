@@ -28,8 +28,8 @@ Ejemplo 2:
  
  Ejemplo:
  *  Input: words = ["saco", "arresto", "programa", "rastreo", "caso"]  
- *  Output: [["saco", "caso"], ["arresto", "rastreo"], ["programa"]]  
-##### [` Código `](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/ZeroMatrix.java) [` Test `](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/ZeroMatrixTest.java)
+ *  Output: [["saco", "caso"], ["arresto", "rastreo"], ["programa"]] 
+##### [` Código `](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/GroupAnagrams.java) [` Test `](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/GroupAnagramsTest.java)
 
 ### `Ejercicio 4`: Arrays, Strings y Tablas Hash
 Dada una matriz, escribe un algoritmo para establecer ceros en la fila F y columna C si existe un 0 en la celda F:C
@@ -46,7 +46,7 @@ Ejemplo:
             \[7, 0, 1, 0, 8\]  
             \[0, 0, 0, 0, 0\]  
             \[9, 0, 4, 0, 9\]  
-##### [` Código `](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/GroupAnagrams.java) [` Test `](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/GroupAnagramsTest.java)
+##### [` Código `](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/ZeroMatrix.java) [` Test `](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/ZeroMatrixTest.java)
 ___  
 
 [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
