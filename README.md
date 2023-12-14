@@ -7,17 +7,17 @@ Proyecto de pruebas de algoritmos y estructuras de datos
 Dado un método que recibe una String, comprobar si todos los caracteres son únicos o no.
  * isUnique("abcde") => true;
  * isUnique("abcded") => false;  
- [\[Código\]](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/IsUnique.java)[\[Test\]](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/IsUniqueTest.java)  
+ [[Código]](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/IsUnique.java)[[Test]](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/IsUniqueTest.java)  
 
 ### `Ejercicio 2`: Arrays, Strings y Tablas Hash
 Dado un array de números enteros y un target, retorna los índices de dos números para los que la suma de ambos sea igual al target. Asumir que hay solamente una solución.
  
-\_Ejemplo 1\_:
+<u>Ejemplo 1<u>:
  *  Input: nums = [9, 2, 5, 6], target = 7
  *  Output: [1, 2]
  *  Explicación: nums[1] + nums[2] == 7, devolvemos [1, 2].
 
-\_Ejemplo 2\_:
+<u>Ejemplo 2<u>:
  *  Input: nums = [9, 2, 5, 6], target = 100
  *  Output: null
 
@@ -25,14 +25,14 @@ Dado un array de números enteros y un target, retorna los índices de dos núme
  Un anagrama es una palabra creada a partir de la reordenación de las letras de otra palabra. Ej: saco - caso.  
  Dado un array de strings, devolver los anagramas agrupados.  
  
- \_Ejemplo\_:
+ <u>Ejemplo<u>:
  *  Input: words = ["saco", "arresto", "programa", "rastreo", "caso"]  
  *  Output: [["saco", "caso"], ["arresto", "rastreo"], ["programa"]]  
 
 ### `Ejercicio 4`: Arrays, Strings y Tablas Hash
 Dada una matriz, escribe un algoritmo para establecer ceros en la fila F y columna C si existe un 0 en la celda F:C
 
-\_Ejemplo\_:
+<u>Ejemplo<u>:
  *  Input:  
            \[2, 1, 3, 0, 2\]  
            \[7, 4, 1, 3, 8\]  
