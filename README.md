@@ -6,8 +6,8 @@ Proyecto de pruebas de algoritmos y estructuras de datos
 ### `Ejercicio 1`: Arrays, Strings y Tablas Hash
 Dado un método que recibe una String, comprobar si todos los caracteres son únicos o no.
  * isUnique("abcde") => true;
- * isUnique("abcded") => false;  
- [[Código]](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/IsUnique.java)[[Test]](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/IsUniqueTest.java)  
+ * isUnique("abcded") => false;   
+[`[Código]`](https://github.com/jmmolinar/algoritmos/blob/master/src/main/java/com/example/arraysstringhashtables/IsUnique.java) [`[Test]`](https://github.com/jmmolinar/algoritmos/blob/master/src/test/java/IsUniqueTest.java)
 
 ### `Ejercicio 2`: Arrays, Strings y Tablas Hash
 Dado un array de números enteros y un target, retorna los índices de dos números para los que la suma de ambos sea igual al target. Asumir que hay solamente una solución.
